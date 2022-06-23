@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck"
+    android:id="@+id/drawer">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/bio_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="401dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="
+            학교 부가시설 + 편의시설\n
+            \n
+            k동 스포츠 센터 \n
+            \n
+            복사실 \n
+            \n
+            기숙사 2층\n
+           \n
+            도서관 \n
+            \n
+            컴퓨터실\n
+            \n
+            기숙사 헬스장(긱사생만 이용가능)\n
+            \n
+            기숙사 1층 오름라운지\n
+            \n
+            문구점(상명화방)\n
+            전화번호: 041-567-6974\n
+            \n
+           서점\n
+            전화번호:041-552-3404\n
+            \n
+            미용실\n
+            전화번호:010-4287-4532\n
+            \n
+            안경원\n
+            전화번호:041-561-5591\n
+            \n
+            atm기\n
+            우체국앞 학생회관 앞\n
+            우체국\n
+            전화번호:041-623-0197\n
+            \n
+            9:00~18:00\n
+            시크릿 오더 소개\n
+            기숙사 카페 파인트리(w동)\n
+            \n
+            기숙사 신관 2층\n
+            8:30~20:00\n
+            전화번호:041-623-0522\n
+            \n
+            한누리관 카페 아이엔지(I동)\n
+            한누리관 1층 \n
+            8:30~17:00\n
+            \n
+            디대 카페 블루포트(D동)\n
+            디자인 대학교 1층\n
+            8:30~17:00\n
+            \n
+            학생회관 카페(H동)\n
+            \n
+            학생회관 1층\n
+            \n"
+                    android:textSize="15dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/menu1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f586a4"
+                android:text="학교 생활 팁"/>
+
+            <Button
+                android:id="@+id/menu2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#fec7a8"
+                android:text="학교 내 부가시설"/>
+            <Button
+                android:id="@+id/menu3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffdc9a"
+                android:text="소소한 팁"/>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

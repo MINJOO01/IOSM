@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeItem"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/foodItem"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:title="Food" />
+    <item
+        android:id="@+id/mapItem"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Map" />
+    <item
+        android:id="@+id/tipItem"
+        android:icon="@drawable/ic_baseline_tips_and_updates_24"
+        android:title="Tip" />
+    <item
+        android:id="@+id/calItem"
+        android:icon="@drawable/ic_baseline_calendar_month_24"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/mypageItem"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Mypage" />
+</menu>

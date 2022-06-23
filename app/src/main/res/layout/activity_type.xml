@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8CBDD3"
+        android:src="@drawable/ic_baseline_backspace_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:background="#8CBDD3"
+        android:gravity="center"
+        android:layout_marginTop="17dp"
+        android:text="슴우가 지금 먹고 싶은 음식은?"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        tools:ignore="TextContrastCheck"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Chinese"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape"
+                android:text="중식"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_Korean"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape"
+                android:text="한식"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_Japanese"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape"
+                android:text="일식"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Western"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/shape"
+                android:text="양식"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_School"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape"
+                android:text="분식"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_Snack"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape"
+                android:text="디저트"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_fast"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/shape"
+                android:text="패스트푸드"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.202"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_alcol"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/shape"
+                android:text="술집"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.727"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="*추천을 원하시지 않으시면 뒤로가기를 눌러주세요*"
+            android:textColor="#F33F3F"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sm_food" />
+
+
+</LinearLayout>

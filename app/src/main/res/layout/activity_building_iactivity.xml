@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuildingIActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/buildingI_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img5_i">
+        </ImageView>
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="268dp"
+                android:src="@drawable/img5_i1"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img5_i2"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i3"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i4"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i5"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i6"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i7"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i8"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i9"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i10"></ImageView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="251dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="I동 한누리관"
+                android:textColor="#000000"
+                android:textSize="15dp"></TextView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i_1"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i_2"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i_3"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_i_4"></ImageView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

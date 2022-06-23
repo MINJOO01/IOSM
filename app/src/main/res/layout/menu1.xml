@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck"
+    android:id="@+id/drawer">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/bio_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="
+\n\n\n\n\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n\n\n\n
+\n
+
+                   1) 학점 종류 \n
+                    A+, A0, B+, B0, C+, C0, F가 보통이며\n
+                    가끔 D+나 D0를 받는 경우도 있음\n
+                    \n
+                    \n
+                    2) A B C 학점 비율\n
+                    ☑+를 주는건 교수님 재량이기 때문에\n
+                    +학점 비율은 교과목 별로 상이합니다\n
+                    ☑A+ ~ A0(30%), B+ ~ B0(40%), C+ ~ F(30%)\n
+                    ☑전공 원어 강의일 경우 40%, 40%, 20%\n
+                    \n   \n
+                    3) F를 받는 경우\n
+                    ❗시험을 안봄\n
+                    ❗4분의1 이상 결석 시 자동 F학점\n
+                    ➡ex) 3학점짜리 수업인경우 4번이상 결석시 자동 F\n
+                    \n
+                    \n
+                    4) 각 학점당 평균\n
+                    A+ => 4.5, A0 => 4.0, B+ => 3.5, B0 =>3.0,\n
+                    C+ => 2.5, C0 => 2.0\n
+                    \n
+                    \n
+                    5) 재수강\n
+                    재수강은 C+ 이하부터 가능\n
+                    그러나 재수강 하면 최대 B+까지밖에 못받음\n
+                    \n   \n
+                    ★수강신청이 겁나는 샌애긔들을 위한 안내서★\n
+                    \n
+                    대부분의 정보는 학교 홈페이지 통합공지에 있음. \n
+                    캠퍼스 분류를 잘 구분하기! \n
+                    https://www.smu.ac.kr/lounge/notice/notice.do\n
+                    \n
+                    \n
+                    \n
+                    ① 수강신청 날짜와 시간은?\n
+                    \n
+                    신입생은 신편입생 기간에 수강신청을 합니다.\n
+                    날짜 : 2월 24일 ~ 2월 26일\n
+                    시간: 14시 ~ 23시 30분까지. 마지막 날은 10시~17시\n
+                    \n
+                    \n
+                    ② 시간표는 어떻게 짜야할까요?\n
+                    \n
+                    학교 공지사항에 학사안내자료와 학과별 시간표가\n
+                     매학기 업데이트 됨.\n
+                    전공이랑 필수적으로 들어야 하는 과목들을 조율해서 시간표에 넣고, \n
+                    그 다음으로 교양을 추가해야한다. \n
+                    시간표를 짤 땐 에브리타임의 시간표 마법사를 이용하여 하는것도 좋다.\n
+                     과목 선택할 때 에브리타임 강의평 찾아보는 것도 좋은 팁!\n
+                    \n
+                    ③ 사이버 강의는 어떤 강의인가요?\n
+                    컴퓨터로 듣는 수업이며, 시한이 있습니다.\n
+                    기간에 따라 출석, 지각, 결석이 처리됨. \n
+                    시험 : 보통 시간표에 있는 시간에 진행됨.\n
+                    추천 학년 : 4학년 \n
+                    에브리타임 강의평을 보는 것을 추천함. \n
+                    \n
+                    ⑥ 학수번호 VS 클릭\n
+                    사람마다 다르지만 영타가 빠르다면 학수번호를 추천해!\n
+                    \n
+                    ⑦ 서버시간\n
+                    보통 네이버 표준시계와 네이비즘 사이트를 통한 서버시간 파로 나뉨. \n
+                    나는 네이비즘에 상명대 수강신청 주소를 복사해서 붙여넣는 것을 추천해. \n
+                    로그인을 일찍하게되는 경우 수강신청 창이 뜨지 않음, \n
+                    이럴 경우 로그아웃하고 다시 로그인해야함\n
+                    \n
+                    ⑧ 요령 및 참고영상 (이 정도는 만약 정말 절실하고,\n
+                     찾아본 사람들이라면 이미 시청 했을것임.)\n
+                    ※구버전 영상 영상 https://youtu.be/G8-fKS8E13w\n
+                    ※현재 시스템 영상 https://youtu.be/rE7e8FOdtus\\\n
+                    ※학교 제공 영상 https://youtu.be/PvaWXM9s_RY\n
+                    ※학교 제공 영상(모바일) https://youtu.be/G_D4MbUUKKQ\n
+                    \n
+                    상명대 공지사항 [전체]\n
+                    https://www.smu.ac.kr/lounge/notice/notice.do\n
+                    \n
+                    상명대 공지사항 [학사]\n
+                    https://www.smu.ac.kr/lounge/notice/notice.do?mode=list
+                    \n
+                    \n">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/menu1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f586a4"
+                android:text="학교 생활 팁"/>
+
+            <Button
+                android:id="@+id/menu2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#fec7a8"
+                android:text="학교 내 부가시설"/>
+            <Button
+                android:id="@+id/menu3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffdc9a"
+                android:text="소소한 팁"/>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

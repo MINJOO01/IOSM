@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cookandroid.toodeole_iosm.BuildingnActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/buildingN_img"
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img5_n">
+        </ImageView>
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_nb1"></ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_n1">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_n2">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_n3">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img5_n4">
+            </ImageView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="20dp"
+                android:text="N동 식물과학관"
+                android:textSize="15dp"
+                android:textColor="#000000"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

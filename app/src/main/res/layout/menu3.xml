@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck"
+    android:id="@+id/drawer">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/bio_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="
+                      출결 \n
+                        스마트 출결 어플 다운\n
+                        방법 (아이폰)\n
+
+                        방법(안드로이드)\n
+                        안드로이드폰 구글 플레이스토어에서\n
+                        상명대학교 스마트출결 다운로드 및 설치\n
+                        \n
+                        교바교 개심함(상의필요) \n
+                        4번 결석 - f\n
+                        3번 지각 - 1번 결석
+                        \n
+
+                        족보 위치\n
+                        샘물 포털 - 통합정보 - 학생 기본- 수업 정보\n
+                        - 고사 문제지\n
+                        조회
+                        \n
+                        \n
+                        \n
+                        학생증\n
+                        위비뱅크 - 서비스 - 대학생 id카드 신청"
+                    android:textSize="15dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/menu1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#f586a4"
+                android:text="학교 생활 팁"/>
+
+            <Button
+                android:id="@+id/menu2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#fec7a8"
+                android:text="학교 내 부가시설"/>
+            <Button
+                android:id="@+id/menu3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#ffdc9a"
+                android:text="소소한 팁"/>
+
+
+        </LinearLayout>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

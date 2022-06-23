@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable-v24/button_state.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable-v24/corner.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable-v24/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/chinaxml.xml" value="0.223" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/corner.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.23" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/ic_baseline_pin_drop_24.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/item_color.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/shape.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/shape2.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/splash.xml" value="0.2195" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/drawable/style.xml" value="0.2325" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_building1.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_building_iactivity.xml" value="0.136" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_building_lactivity.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_buildinge.xml" value="0.1" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_chinise.xml" value="0.253125" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_find.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_food.xml" value="0.2" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_homework.xml" value="0.264" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_loading.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_mypage.xml" value="0.2" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_repass.xml" value="0.264" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_school.xml" value="0.2" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_school2.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_school3.xml" value="0.12" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_second.xml" value="0.264" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_student.xml" value="0.12" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/activity_type.xml" value="0.152" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/app_bar_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/content_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_cal.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_call.xml" value="0.10925925925925926" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_camera.xml" value="0.42142857142857143" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_food.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_home.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_map.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_mypage.xml" value="0.19302417756638923" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_search.xml" value="0.42142857142857143" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_slideshow.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/fragment_tip.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/layout_profile.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/loading.xml" value="0.1598731884057971" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/menu1.xml" value="0.21779964221824688" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/menu2.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/menu3.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/nav_header_main.xml" value="0.14583333333333334" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/row_listview.xml" value="0.11322463768115942" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/layout/todo_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/menu/activity_main_drawer.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/menu/main.xml" value="0.253125" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/menu/menu_bottom.xml" value="0.25364583333333335" />
+        <entry key="..\:/CookAndroid/Project/ToodeolE_IOSM/app/src/main/res/menu/menu_bottomnavigationview.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563019605148",
+    "project_id": "toodeole-iosm",
+    "storage_bucket": "toodeole-iosm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563019605148:android:8a8eeb64407a579796b959",
+        "android_client_info": {
+          "package_name": "com.cookandroid.toodeole_iosm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563019605148-k0l6t3kslcio49c99h3d1f5hvrj8sjrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYDcYqs3SD24gAx4I-xmS2XZ6QBF99aMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563019605148-k0l6t3kslcio49c99h3d1f5hvrj8sjrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

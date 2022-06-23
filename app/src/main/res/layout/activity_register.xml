@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/corner"
+            android:backgroundTint="#8CBDD3"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textAlignment="center"
+            android:textColor="#AF7E9E"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck"></TextView>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape2"
+        android:src="@drawable/todeol_logo"></ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:hint="이름"
+                    android:textSize="25dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:hint="이메일(ID)"
+                    android:textSize="25dp"></com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:hint="비밀번호(6자리 이상)"
+                    android:inputType="textPassword"
+                    android:textSize="25dp">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#8CBDD3"
+                android:text="회원가입"
+                android:textSize="25dp"
+                android:background="@drawable/corner"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--<com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="60dp"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword"
+            android:textSize="25dp"
+            android:id="@+id/et_check">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+</LinearLayout>
